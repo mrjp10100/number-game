@@ -1,4 +1,4 @@
-# Brain Game
+# Number Game
 
 ## Project Description
 
