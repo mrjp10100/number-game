@@ -1,4 +1,5 @@
-#Number Game
+Number Game
+
 Welcome to the Brain Game! This game challenges your memory and attention by presenting you with a sequence of numbers that increase in difficulty with each level. Your task is to correctly input the sequence to advance to the next level and earn coins.
 
 How to Play
