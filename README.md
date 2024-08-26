@@ -2,7 +2,7 @@
 
 ## Project Description
 
-**Number Game** is a web-based game that tests your memory and attention. Players are shown a sequence of numbers that they need to remember and input correctly. As you advance through levels, the sequences become longer and the rewards increase. The game features animated coin rewards to celebrate your progress.
+**Number Game** is a web-based game that tests your memory and attention. Players are shown a sequence of numbers that they need to remember and input correctly. As you advance through levels, the sequences become longer, and the rewards increase. The game features animated coin rewards to celebrate your progress.
 
 ## Features
 
@@ -40,5 +40,5 @@
    - If the sequence is incorrect, a message will prompt you to try again.
 
 # License
-This project is open-source and available under the MIT License. See the LICENSE file for more details.
+This project is open-source and available under the MIT License. See the LICENSE file for more details. 
 
