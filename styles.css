@@ -1,0 +1,88 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#level {
+    margin-bottom: 20px; /* Add margin below the level text */
+    font-size: 18px;
+}
+
+#sequence {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#userInput {
+    margin-bottom: 10px; /* Add space between the input field and the submit button */
+    width: flex;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+#submitBtn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 35%; /* Make the button full width */
+}
+
+#submitBtn:hover {
+    background-color: #45a049;
+}
+
+#coins {
+    position: absolute;
+    top: 10px;
+    right: 50px; /* Position the coin count */
+    font-size: 20px;
+    color: #fff;
+    z-index: 1;
+}
+
+#coin-emoji {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Position the coin emoji next to the coin count */
+    font-size: 24px;
+    opacity: 0;
+    animation: none;
+    z-index: 1;
+}
+
+@keyframes coin-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0) scale(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px) scale(1);
+    }
+}
