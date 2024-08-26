@@ -2,7 +2,7 @@
 
 ## Project Description
 
-**Brain Game** is a web-based game that tests your memory and attention. Players are shown a sequence of numbers that they need to remember and input correctly. As you advance through levels, the sequences become longer and the rewards increase. The game features animated coin rewards to celebrate your progress.
+**Number Game** is a web-based game that tests your memory and attention. Players are shown a sequence of numbers that they need to remember and input correctly. As you advance through levels, the sequences become longer and the rewards increase. The game features animated coin rewards to celebrate your progress.
 
 ## Features
 
